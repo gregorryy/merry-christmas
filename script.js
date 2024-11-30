@@ -14,10 +14,18 @@ function mettreAJourCompteARebours() {
   const secondes = Math.floor((diff % (1000 * 60)) / 1000);
 
   // Mettre à jour les éléments HTML avec le temps restant calculé
-  document.getElementById("jours").innerText = `${jours} days`;
-  document.getElementById("heures").innerText = `${heures} hours`;
-  document.getElementById("minutes").innerText = `${minutes} minutes`;
-  document.getElementById("secondes").innerText = `${secondes} seconds`;
+  document.getElementById(
+    "jours"
+  ).innerHTML = `<span class="jour">${jours}</span> <span class="day">days</span>`;
+  document.getElementById(
+    "heures"
+  ).innerHTML = `<span class="heure">${heures}</span> <span class="hr">hours</span>`;
+  document.getElementById(
+    "minutes"
+  ).innerHTML = `<span class="minutes">${minutes}</span> <span class="min">minutes</span>`;
+  document.getElementById(
+    "secondes"
+  ).innerHTML = `<span class="seconde">${secondes}</span> <span class="sec">seconds</span>`;
 }
 
 // Mettre à jour le compte à rebours toutes les secondes
