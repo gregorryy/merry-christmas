@@ -15,7 +15,6 @@ function mettreAJourCompteARebours() {
 
   // Mettre à jour les éléments HTML avec le temps restant calculé
   document.getElementById("jours").innerText = `${jours} days`;
-  document.getElementById("jours").classList.add("days");
   document.getElementById("heures").innerText = `${heures} hours`;
   document.getElementById("minutes").innerText = `${minutes} minutes`;
   document.getElementById("secondes").innerText = `${secondes} seconds`;
