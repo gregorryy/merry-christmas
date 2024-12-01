@@ -11,7 +11,6 @@ body {
   align-items: center;
   height: 100vh;
   background: linear-gradient(
-    to bottom,
     #1f2e3d,
     #2b4c6f,
     #3a6f99,
@@ -23,6 +22,7 @@ body {
   background-size: 100% 100%;
   color: white;
   margin: 0;
+  padding: 0;
 }
 
 .countdown div {
@@ -203,15 +203,15 @@ color: #5A6E85;   Bleu clair très doux
 }
 
 .hr {
-  color: #f5f5f5;
+  color: #c7c7c7;
 }
 
 .min {
-  color: #e0e0e0;
+  color: #a4a4a4;
 }
 
 .sec {
-  color: #d1d1d1;
+  color: #777777;
 }
 
 /*
