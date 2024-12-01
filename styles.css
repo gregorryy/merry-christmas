@@ -21,8 +21,7 @@ body {
   );
   background-size: 100% 100%;
   color: white;
-  margin: 0;
-  padding: 0;
+  background-attachment: fixed;
 }
 
 .countdown div {
